@@ -1,0 +1,7 @@
+[TMP36]
+enabled=true
+channel=0
+module=cayenne-tmp36
+class=CayenneTMP36
+init_args={"adc": "cayenne-mcp3xxx:MCP", "channel": 7}
+read=get_temperature
