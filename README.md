@@ -17,9 +17,9 @@ A plugin allowing the [Cayenne Pi Agent](https://github.com/myDevicesIoT/Cayenne
    From the command line run the following commands to install this plugin.
    ```
    cd /etc/myDevices/plugins
-   sudo git clone https://github.com/myDevicesIoT/cayenne-plugin-dht.git
+   sudo git clone https://github.com/myDevicesIoT/cayenne-plugin-tmp36.git
    ```
-   Install the ADC plugin following its installation instructions.
+   Install the ADC plugin following its installation instructions. This example uses an [MCP3XXX device](https://github.com/myDevicesIoT/cayenne-plugin-mcp3xxx).
 
 ### 2. Setting the ADC and channel
 
