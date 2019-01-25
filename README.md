@@ -23,9 +23,9 @@ A plugin allowing the [Cayenne Pi Agent](https://github.com/myDevicesIoT/Cayenne
 
 ### 2. Setting the ADC and channel
 
-   Specify the ADC device and channel number you are connecting the TMP36 to by modifying `init_args` under `TMP36` in the `cayenne-tmp36.plugin` file.
+   Specify the ADC device and channel number you are connecting the TMP36 to by modifying `init_args` under `TMP36` in the `cayenne_tmp36.plugin` file.
    The `adc` value should be set to `plugin_name:section` where `plugin_name` is the name of the ADC plugin file name and `section` is the section within that
-   file that defines the ADC extension. For example, `cayenne-mcp3xxx:MCP`. The `channel` value should be set to the channel on the ADC device that the
+   file that defines the ADC extension. For example, `cayenne_mcp3xxx:MCP`. The `channel` value should be set to the channel on the ADC device that the
    TMP36 is connected to.
 
 ### 3. Restarting the agent

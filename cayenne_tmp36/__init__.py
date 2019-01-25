@@ -12,7 +12,7 @@ class CayenneTMP36(AnalogInput):
         """Initializes TMP36 device.
 
         Arguments:
-        adc: The analog to digital converter extension ID, e.g. 'cayenne-mcp3xxx:MCP'
+        adc: The analog to digital converter extension ID, e.g. 'cayenne_mcp3xxx:MCP'
         channel: The channel on the ADC the TMP36 is connected to
         """        
         AnalogInput.__init__(self, adc)
